@@ -3,22 +3,33 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Intro1</title>
-		<!-- FONTS0 -->
-		<!-- CSS -->
+		<title>Intro</title>
+		<!--FONTS-->
+		<!--css-->
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
 		<div class="container">
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos, temporibus dicta nobis nisi labore id incidunt quis
-				tempora. Esse possimus fuga, debitis dolor quo deleniti reprehenderit repellat vero aliquam consequatur, animi facere ione
-				sequi accusantium explicabo suscipit? Voluptatem eaque veritatis praesentium adipisci eveniet. Illum praesentium obcaecati
-				sint assumenda adipisci, architecto eveniet unde atque itaque quae voluptatum. Ratione aliquid voluptatibus necessitatibus
-				ipsam eligendi magnam excepturi suscipit, explicabo dolorem illum earum nisi sapiente architecto perspiciatis sunt
-				voluptate iure quam eos officiis omnis? . Quasi at autem exercitationem veniam, earum tenetur placeat.
-			</p>
+			<div class="intro-page">
+				<div class="hero">
+					<div class="hero__bg-img">
+						<div class="hero__heding">frontend and backend</div>
+						<h1 class="hero__title">Learn to program by watching professionals</h1>
+						<p class="hero__text">See how experienced developers solve problems in real time</p>
+					</div>
+					<button class="hero__btn">Try it free 7 days, then $20/mo</button>
+				</div>
+				<form class="signup-form" action="https://echo.htmlacademy.ru" method="POST">
+					<h2 class="signup-form__title">Sign up for the course and get free 7 days</h2>
+					<input class="signup-form__input" type="text" value="Name" placeholder="First name" required />
+					<input class="signup-form__input" type="text" placeholder="Last Name" required />
+					<input class="signup-form__input" type="email" placeholder="Email Address" required />
+					<input class="signup-form__input" type="password" placeholder="Password" required />
+					<button class="signup-form__btn" type="submit">Claim your free trial</button>
+					<p class="signup-form__text">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+				</form>
+			</div>
 		</div>
 	</body>
 </html>
